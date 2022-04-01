@@ -1,0 +1,111 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;  
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+input{
+  outline: none;
+  border: solid 1px gray;
+  border-radius: 5px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+}
+.container-1250{
+  width: 1250px !important;
+}
+.no-margin{
+  margin:0px!important;
+}
+.no-padding{
+  padding:0px!important
+}
+.padTop60{
+  padding-top: 60px!important;
+}
+.titleBlack{
+  width: 50%;
+  color: white;
+  background-color: black;
+  border-radius: 20px 0px 20px 0px;
+  box-shadow: 4px 4px 12px grey;
+}
+.titleBlackdesc{
+  width: 75%;
+  color: white;
+  background-color: black;
+  border-radius: 20px 0px 20px 0px;
+  box-shadow:-4px -4px 12px grey;
+}
+
+/***** Welcomepage *****/
+
+.welcomePageborder{
+  border: solid 2px gray;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/***** Navbar *****/
+
+.searchDropdown{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px grey;
+  padding: 10px;
+  top: 35px;  
+  display: none;  
+}
+.searchBoxshow{
+  display: block!important;  
+}
+.navBarcontainer{
+  background: white;
+  backdrop-filter: blur(10px);  
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  left: 50%;
+  transform: translateX(-50%);
+}
+ 
+/***** product page *****/
+
+.productBox{  
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+/***** loader *****/
+
+.loader{
+  display: flex!important;
+  height: 100vh!important;
+  align-items: center!important;
+  flex-direction: column!important;
+  width: 100%!important;
+  justify-content: space-around!important;
+}
+.loader_size{
+  width: 50px!important;
+  height: 50px!important;
+  font-size: 20px!important;
+}
+
+
